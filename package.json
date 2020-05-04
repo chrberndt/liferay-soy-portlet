@@ -1,0 +1,18 @@
+{
+	"dependencies": {
+		"metal-component": "2.16.8",
+		"metal-soy": "2.16.8"
+	},
+	"devDependencies": {
+		"liferay-module-config-generator": "^1.2.1",
+		"liferay-npm-scripts": "14.0.0",
+		"metal-cli": "^4.0.1"
+	},
+	"name": "hello-soy-portlet",
+	"scripts": {
+		"build": "liferay-npm-scripts build",
+		"checkFormat": "liferay-npm-scripts check",
+		"format": "liferay-npm-scripts fix"
+	},
+	"version": "1.0.0"
+}
